@@ -1,11 +1,11 @@
 #N canvas 285 152 1227 802 10;
 #X text 18 48 Travis Houldcroft || travishouldcroft.com;
-#X obj 1 2 cnv 15 800 40 empty \$0-abstrPatchTitleBar Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #f8d8fc #a0a0a0 0;
+#X obj 1 2 cnv 15 501 40 empty \$0-abstrPatchTitleBar Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 1 75 cnv 2 800 2 empty \$0-abstrPatchSecDivider empty 9 20 0 18 #a0a0a0 #202020 0;
 #N canvas 742 38 770 847 abstr-init 1;
 #X obj 159 159 loadbang;
 #X obj 159 189 del 10;
-#N canvas 1280 23 1414 755 abstr-cnv-set 0;
+#N canvas 1280 23 1414 755 abstr-cnv-set 1;
 #X text 121 406 \$0-abstrPatchSecDivider;
 #X text 120 1003 \$0-abstrPatchSecLabelNotes;
 #X text 120 1139 \$0-abstrPatchSecLabelRevHist;
@@ -83,7 +83,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -334,7 +334,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -585,7 +585,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -836,7 +836,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -1087,7 +1087,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -1417,7 +1417,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -1672,7 +1672,7 @@
 #X obj 1174 42 cnv 14 14 14 empty empty 10 0 8 0 12 #606060 #dcdcdc 0;
 #X text 0 18 Canvas Name;
 #X obj 284 2 cnv 5 1 260 empty empty empty 20 12 0 14 #7c7c7c #404040 0;
-#X obj 738 322 cnv 2 800 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #a0a0a0 #202020 0;
+#X obj 738 322 cnv 15 501 40 empty \$0-test_canvas Tutorials\,\ Tips\,\ &\ Tricks:\ Relative\ File\ Paths 9 20 0 18 #fcac44 #a0a0a0 0;
 #X obj 415 328 s \$0-test_canvas;
 #X obj 210 187 spigot;
 #X obj 170 88 tgl 15 0 empty empty empty 17 7 0 10 #fcfcfc #000000 #000000 0 1;
@@ -1859,15 +1859,15 @@
 #X msg 438 572 symbol Arguments;
 #X msg 343 819 doll 1 \, rec abstrPatchSecLabelOutlets \, size 2 \, visw 501 \, vish 3 \, lblfon 0 \, lblsz 16 \, lblx 20 \, lbly 15 \, bgclr 1 \, lblclr 12, f 123;
 #X msg 438 842 symbol Outlets;
-#X msg 343 309 doll 1 \, rec abstrPatchTitleBar \, size 15 \, visw 501 \, vish 40 \, lblfon 0 \, lblsz 18 \, lblx 9 \, lbly 20 \, bgclr 9 \, lblclr 1, f 123;
 #X msg 343 433 doll 1 \, rec abstrPatchSecDivider \, size 2 \, visw 501 \, vish 2 \, lblfon 0 \, lblsz 18 \, lblx 9 \, lbly 20 \, bgclr 1 \, lblclr 12, f 123;
+#X msg 343 309 doll 1 \, rec abstrPatchTitleBar \, size 15 \, visw 501 \, vish 40 \, lblfon 0 \, lblsz 18 \, lblx 9 \, lbly 20 \, bgclr 14 \, lblclr 1, f 123;
 #X connect 8 0 15 0;
 #X connect 9 0 11 0;
 #X connect 11 0 12 0;
 #X connect 12 0 23 0;
 #X connect 15 0 3 1;
-#X connect 21 0 63 0;
-#X connect 22 0 64 0;
+#X connect 21 0 64 0;
+#X connect 22 0 63 0;
 #X connect 24 0 3 0;
 #X connect 25 0 4 0;
 #X connect 26 0 5 0;
@@ -1895,8 +1895,8 @@
 #X connect 60 0 5 1;
 #X connect 61 0 52 0;
 #X connect 62 0 52 1;
-#X connect 63 0 3 0;
-#X connect 64 0 4 0;
+#X connect 63 0 4 0;
+#X connect 64 0 3 0;
 #X restore 159 249 pd abstr-cnv-set;
 #X f 32;
 #X text 559 208 EDIT HERE to change patch WIDTH, f 16;

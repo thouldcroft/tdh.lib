@@ -2079,6 +2079,8 @@
 #X connect 21 1 5 0;
 #X restore 604 98 pd savestate;
 #X obj 83 124 tgl 16 0 \$0-embed-s \$0-embed-r Emb 20 8 0 10 #ffffff #000000 #000000 0 1;
+#X obj 544 135 loadbang;
+#X obj 544 161 f \$1;
 #X connect 14 0 23 0;
 #X connect 18 0 27 0;
 #X connect 19 0 21 0;
@@ -2088,4 +2090,6 @@
 #X connect 25 0 24 1;
 #X connect 26 0 18 0;
 #X connect 27 0 15 0;
+#X connect 30 0 31 0;
+#X connect 31 0 21 0;
 #X coords 0 -1 1 1 100 75 2 25 100;

@@ -1735,14 +1735,14 @@
 #X obj 624 223 tgl 19 0 empty empty Click\ here! 25 9 0 10 #ffffff #000000 #000000 0 1;
 #X text 621 196 Great for sequencing!;
 #X obj 123 507 cnv 19 350 150 empty empty See\ Also: 5 12 0 12 #c7c6ff #ffffff 0;
-#X floatatom 336 476 5 0 0 0 - - - 0;
+#X floatatom 229 469 5 0 0 0 - - - 0;
 #X obj 870 435 noise~;
 #X obj 852 460 *~;
 #X obj 9 369 tdh.lib/tdh.synth.beep~ 440 150 25 2 1;
 #X text 31 395 <-- Signal output;
 #X text 284 368 <-- Arguments:;
 #X text 282 381 freq (hz) \, dur (ms) \, env (ms) \, waveform (1-4);
-#X obj 220 437 tdh.lib/tdh.util.snapshotter~ 20 1, f 17;
+#X obj 229 409 tdh.lib/tdh.util.snapshotter~ 20 1, f 24;
 #X obj 852 484 *~ 0.5;
 #X obj 624 351 tdh.lib/tdh.synth.beep~ 0 60 20 4;
 #X text 86 431 Envelope output ->;
@@ -1807,7 +1807,7 @@
 #X connect 32 0 16 0;
 #X connect 32 0 16 1;
 #X connect 32 1 36 0;
-#X connect 36 1 29 0;
+#X connect 36 0 29 0;
 #X connect 37 0 23 0;
 #X connect 37 0 23 1;
 #X connect 38 0 23 0;

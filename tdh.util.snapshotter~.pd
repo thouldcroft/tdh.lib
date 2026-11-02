@@ -5,8 +5,8 @@
 #X obj 26 221 cnv 1 93 2 empty \$0-moduleNameBorder-r empty 1 7 0 10 #404040 #404040 0;
 #X obj 26 222 cnv 12 93 14 empty \$0-moduleName-r Snapshotter 1 7 0 10 #dcdcdc #404040 0;
 #X obj 26 236 cnv 1 93 2 empty \$0-outletBorder-r empty 1 7 0 10 #404040 #404040 0;
-#X obj 26 237 cnv 10 93 14 empty \$0-outletBar-r THRU 0 6 0 8 #dfdfdf #404040 0;
-#X obj 105 237 cnv 10 5 12 empty empty VAL 0 6 0 8 #dfdfdf #404040 0;
+#X obj 26 237 cnv 10 93 14 empty \$0-outletBar-r empty 0 6 0 8 #dfdfdf #404040 0;
+#X obj 105 237 cnv 10 5 12 empty empty empty 0 6 0 8 #dfdfdf #404040 0;
 #X text 18 45 Travis Houldcroft || travishouldcroft.com;
 #X obj 1 -1 cnv 15 810 40 empty \$0-abstrPatchTitleBar tdh.util.snapshotter~ 9 20 0 18 #3c50fc #a0a0a0 0;
 #X obj 1 72 cnv 2 810 2 empty \$0-abstrPatchSecDivider empty 9 20 0 18 #a0a0a0 #202020 0;
@@ -1994,7 +1994,7 @@
 #X obj 125 201 cnv 14 18 14 empty empty 1 2 8 0 12 #9f9f9f #ffffff 0;
 #X obj 125 221 cnv 14 18 14 empty empty 1 2 8 0 12 #9f9f9f #ffffff 0;
 #X restore 635 47 pd reference;
-#X obj 334 330 cnv 14 14 14 empty empty R 6 8 0 8 #c4fcfc #7c7c7c 0;
+#X obj 92 333 cnv 14 14 14 empty empty R 6 8 0 8 #c4fcfc #7c7c7c 0;
 #X obj 380 234 cnv 14 14 14 empty empty R 6 8 0 8 #c4fcc4 #7c7c7c 0;
 #X obj 335 214 cnv 14 14 14 empty empty R 6 8 0 8 #fcfcc4 #7c7c7c 0;
 #X obj 334 303 cnv 14 14 14 empty empty S 6 8 0 8 #c4fcfc #7c7c7c 0;
@@ -2005,7 +2005,7 @@
 #X obj 14 128 cnv 4 6 6 empty empty ☐ -1 2 0 14 #feffc6 #9f9f9f 0;
 #X obj 13 177 cnv 4 6 6 empty empty ☐ -1 2 0 14 #c6feff #9f9f9f 0;
 #X obj 230 356 cnv 14 18 14 empty empty 1 2 8 0 12 #9f9f9f #ffffff 0;
-#X obj 332 356 cnv 14 18 14 empty empty 1 2 8 0 12 #9f9f9f #ffffff 0;
+#X obj 90 359 cnv 14 18 14 empty empty 1 2 8 0 12 #9f9f9f #ffffff 0;
 #X obj 126 102 cnv 14 14 14 empty empty 1 4 8 0 12 #606060 #dcdcdc 0;
 #X obj 389 101 cnv 14 14 14 empty empty 3 4 8 0 12 #606060 #dcdcdc 0;
 #X obj 142 102 inlet~ sigIn;
@@ -2018,14 +2018,14 @@
 #X obj 249 356 outlet~ thru;
 #X obj 232 101 cnv 14 14 14 empty empty 2 4 8 0 12 #606060 #dcdcdc 0;
 #X obj 248 101 inlet on-off;
-#X obj 351 356 outlet float-val;
+#X obj 109 359 outlet float-val;
 #X obj 142 123 s~ \$0-signal;
 #X obj 122 123 cnv 14 18 14 empty empty S~ 6 8 0 8 #fce0c4 #606060 0;
 #X obj 249 238 r~ \$0-signal;
 #X obj 248 166 s \$0-onOff-r;
 #X obj 405 172 s \$0-rate-r;
 #X obj 351 302 s \$0-data-r;
-#X obj 351 329 r \$0-data-s;
+#X obj 109 332 r \$0-data-s;
 #X obj 486 122 f \$1;
 #X obj 486 101 loadbang;
 #X obj 486 144 expr if($f1==0 \, 50 \, $f1), f 15;
